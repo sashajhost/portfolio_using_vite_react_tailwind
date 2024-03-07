@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Sidenav from './Components/Sidenav';
-import { IoMenu } from "react-icons/io5";
+import Main from './Components/Main';
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <Sidenav/>
+      <Main/>
 
     </div>
     
