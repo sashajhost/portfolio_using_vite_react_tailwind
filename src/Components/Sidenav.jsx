@@ -17,7 +17,7 @@ const Sidenav = () => {
     <div className="sidenav ">
       <IoMenu onClick={toggleSidenav} className="menu-icon absolute top-4 right-4 z-[99] md:hidden" />
       {isOpen && (
-        <div className="sidenav-content fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20 md:hidden">
+        <div className="fixed z-20 flex flex-col items-center justify-center w-full h-screen sidenav-content bg-white/90 md:hidden">
           <a
             href="#Home"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -65,23 +65,23 @@ const Sidenav = () => {
 
       <div className='md:block hidden top-[25%] z-10 fixed'>
         <div className='flex flex-col '>
-          <a href='#Home'  className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+          <a href='#main'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <AiOutlineHome size={20} />
           </a>
 
-          <a href='#Work'  className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+          <a href='#Work'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <GrProjects size={20} />
           </a>
 
-          <a href='#projects'  className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+          <a href='#projects'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <AiOutlineProject size={20} />
           </a>
 
-          <a href='#resume'  className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+          <a href='#resume'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <BsPerson size={20} />
           </a>
 
-          <a href='#contacts'  className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+          <a href='#Conact'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <AiOutlineMail  size={20} />
           </a>
 
