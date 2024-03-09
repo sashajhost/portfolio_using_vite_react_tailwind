@@ -3,7 +3,7 @@ import React from 'react'
 
 const WorkItem = ({year , title , duration , details}) => {
   return (
-    <ol className='relative flex flex-col border-l md:flex-row border-stone-200 sm:pt-12'>
+    <ol className='relative flex flex-col border-l md:flex-row border-stone-200 sm:pt-12 lg:pt-4'>
         <li className='mb-10 ml-4 '>
             <div className='absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white '/>
             <p className='flex flex-row flex-wrap items-center justify-start gap-4 text-xs md:text-sm '>
