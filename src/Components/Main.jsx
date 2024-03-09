@@ -12,8 +12,8 @@ const Main = () => {
         <img className='object-cover w-full h-screen ' src={mountain2} alt='' />
         <div className='absolute top-0 left-0 w-full h-screen bg-white/25 '>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center '>
-            <h1 className='text-4xl font-bold text-gray-800 sm:text-5xl '>I'm sasheed panapitiya</h1>
-            <h2 className='flex pt-4 text-2xl text-gray-800 sm:text-3xl '>
+            <h1 className='text-4xl font-bold text-center text-gray-800 sm:text-5xl'>I'm sasheed panapitiya</h1>
+            <h2 className='flex pt-4 text-xl text-gray-800 sm:text-3xl '>
                 I'm a   
             <TypeAnimation
               sequence={[
