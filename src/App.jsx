@@ -14,9 +14,9 @@ function App() {
     <div>
       <Sidenav/>
       <Main/>
+      <About/>
       <Work/>
       <Projects/>
-      <About/>
       <Contact/>
     </div>
     

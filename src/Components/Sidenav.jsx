@@ -4,7 +4,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
 import { AiOutlineProject } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
-import { GrGroup } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
 
 const Sidenav = () => {
@@ -28,6 +27,14 @@ const Sidenav = () => {
           </a>
 
           <a 
+            href="#About"
+            className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <BsPerson size={20} />
+            <span className="pl-4">About Me</span>
+          </a>
+
+          <a 
             href=" #Work"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -41,14 +48,6 @@ const Sidenav = () => {
           >
             <AiOutlineProject size={20} />
             <span className="pl-4">Projects</span>
-          </a>
-
-          <a 
-            href="#About"
-            className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
-            <BsPerson size={20} />
-            <span className="pl-4">About Me</span>
           </a>
 
           <a 
@@ -70,16 +69,16 @@ const Sidenav = () => {
             <AiOutlineHome size={20} />
           </a>
 
+          <a href='#About'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
+            <BsPerson size={20} />
+          </a>
+
           <a href='#Work'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <GrProjects size={20} />
           </a>
 
           <a href='#projects'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <AiOutlineProject size={20} />
-          </a>
-
-          <a href='#About'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
-            <BsPerson size={20} />
           </a>
 
           <a href='#Contact'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
