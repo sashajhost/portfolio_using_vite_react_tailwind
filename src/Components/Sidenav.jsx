@@ -26,7 +26,7 @@ const Sidenav = () => {
             <span className="pl-4">Home</span>
           </a>
 
-          <a
+          <a 
             href="#work"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -34,7 +34,7 @@ const Sidenav = () => {
             <span className="pl-4">Work</span>
           </a>
 
-          <a
+          <a 
             href="#projects"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -42,7 +42,7 @@ const Sidenav = () => {
             <span className="pl-4">Projects</span>
           </a>
 
-          <a
+          <a 
             href="#resume"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -50,7 +50,7 @@ const Sidenav = () => {
             <span className="pl-4">Resume</span>
           </a>
 
-          <a
+          <a 
             href="#contacts"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -65,7 +65,7 @@ const Sidenav = () => {
 
       <div className='md:block hidden top-[25%] z-10 fixed'>
         <div className='flex flex-col '>
-          <a href='#main'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
+          <a  href='#main'  className='p-4 m-2 duration-300 ease-in bg-gray-100 rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110 '>
             <AiOutlineHome size={20} />
           </a>
 
