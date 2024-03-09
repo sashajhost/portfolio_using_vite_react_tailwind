@@ -13,13 +13,13 @@ const About = () => {
     <div id='About' className='max-w-[1040px] m-auto md:pl-20 pt-16 pb-0 h-screen'>
         <h1 className='text-4xl font-bold text-center text-[#001b5e]'>About Me</h1>
         
-        <div className='flex items-center justify-center pt-14'>
+        <div className='flex items-center justify-center pt-8'>
             <img className='w-[200px]' src={profile} alt="" />
         </div>
 
         
-        <div className='pt-12'>
-          <p className='flex flex-col text-xs text-center md:text-xl'>
+        <div className='pt-6'>
+          <p className='flex flex-col pl-4 pr-4 text-sm text-center md:text-xl'>
            I'm a passionate web developer with over 4 years of experience crafting engaging and user-friendly web applications.
             I leverage a diverse skillset including 
            <p className='font-bold '>
@@ -33,7 +33,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className='flex flex-wrap justify-center gap-8 p-12'>
+        <div className='flex flex-wrap justify-between gap-8 pt-6 pl-4 pr-4'>
             <img className='md:h-[80px] h-[60px]' src={elogo} alt="" />
             <img className='md:h-[80px] h-[60px]' src={tlogo} alt="" />
             <img className='md:h-[80px] h-[60px]' src={rlogo} alt="" />

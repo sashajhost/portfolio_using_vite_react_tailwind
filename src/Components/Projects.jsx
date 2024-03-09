@@ -7,7 +7,7 @@ import property4 from '../assets/property4.jpg';
 
 const Projects = () => {
   return (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 '>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16  '>
         <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
         <p className='py-8 text-center '>
             I possess a well-rounded background in IT, marketing, and visual effects. Leveraging my skills, 
