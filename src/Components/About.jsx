@@ -19,7 +19,7 @@ const About = () => {
 
         
         <div className='pt-12'>
-          <p className='flex flex-col text-xl text-center'>
+          <p className='flex flex-col text-xs text-center md:text-xl'>
            I'm a passionate web developer with over 4 years of experience crafting engaging and user-friendly web applications.
             I leverage a diverse skillset including 
            <p className='font-bold '>
@@ -33,13 +33,13 @@ const About = () => {
           </p>
         </div>
 
-        <div className='flex justify-between pt-20 '>
-            <img className='h-[80px]' src={elogo} alt="" />
-            <img className='h-[80px]' src={tlogo} alt="" />
-            <img className='h-[80px]' src={rlogo} alt="" />
-            <img className='h-[80px]' src={alogo} alt="" /> 
-            <img className='h-[80px]' src={tslogo} alt="" />
-            <img className='h-[80px]' src={slogo} alt="" />
+        <div className='flex flex-wrap justify-center gap-8 p-12'>
+            <img className='md:h-[80px] h-[60px]' src={elogo} alt="" />
+            <img className='md:h-[80px] h-[60px]' src={tlogo} alt="" />
+            <img className='md:h-[80px] h-[60px]' src={rlogo} alt="" />
+            <img className='md:h-[80px] h-[60px]' src={alogo} alt="" /> 
+            <img className='md:h-[80px] h-[60px]' src={tslogo} alt="" />
+            <img className='md:h-[80px] h-[60px]' src={slogo} alt="" />
             
         </div>
 
