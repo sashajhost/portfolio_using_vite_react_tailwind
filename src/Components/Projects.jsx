@@ -18,10 +18,10 @@ const Projects = () => {
              at Thrima, a company I founded, leading a team of five talented co-workers.
         </p>
         <div className='grid gap-12 sm:grid-cols-2 '>
-            <ProjectsItem img={property1} title='animations' cat='blender' />
-            <ProjectsItem img={property2} title='react js' cat='web developing'/>
-            <ProjectsItem img={property3} title='adroid' cat='app developing'/>
-            <ProjectsItem img={property4} title='telegram' cat='Bard AI'/>
+            <ProjectsItem img={property1} title='animations' cat='blender' link="https://www.youtube.com/@thrimana3000/featured"/>
+            <ProjectsItem img={property2} title='react js' cat='web developing' link="https://github.com/sasheeddev/react_tailwind_app" />
+            <ProjectsItem img={property3} title='adroid' cat='app developing' link="https://play.google.com/store/apps/details?id=io.ionic.prog612534ff61fda147fec2393f&hl=en&gl=US" />
+            <ProjectsItem img={property4} title='telegram' cat='Bard AI' link="https://www.youtube.com/watch?v=nNxWTJch3Kg" />
         </div>
 
       
