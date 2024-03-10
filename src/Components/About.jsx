@@ -10,15 +10,15 @@ import tslogo from '../assets/tslogo.png';
 
 const About = () => {
   return (
-    <div id='About' className='max-w-[1040px] m-auto md:pl-20 pt-16 pb-0 h-screen lg:pt-14 '>
+    <div id='About' className='max-w-[1040px] m-auto md:pl-20 pt-16 pb-0  md:pt-14 '>
         <h1 className='text-4xl font-bold text-center text-[#001b5e]'>About Me</h1>
         
-        <div className='flex items-center justify-center pt-8 sm:pt-36 lg:pt-12'>
+        <div className='flex items-center justify-center pt-8 sm:pt-36 md:pt-12'>
             <img className='w-[200px]' src={profile} alt="" />
         </div>
 
         
-        <div className='pt-6 sm:pt-24 lg:pt-10'>
+        <div className='pt-6 sm:pt-24 md:pt-10'>
           <p className='flex flex-col pl-4 pr-4 text-sm text-center md:text-xl'>
            I'm a passionate web developer with over 4 years of experience crafting engaging and user-friendly web applications.
             I leverage a diverse skillset including 
