@@ -7,7 +7,7 @@ import property4 from '../assets/property4.jpg';
 
 const Projects = () => {
   return (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 sm:pl-20 sm:pr-10 lg:pt-0 '>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16   sm:pl-20 sm:pr-10 lg:pt-0 '>
         <h1 className='text-4xl font-bold text-center text-[#001b5e] sm:pt-12 '>Projects</h1>
         <p className='py-8 text-center sm:pt-14 lg:pt-8 '>
             I possess a well-rounded background in IT, marketing, and visual effects. Leveraging my skills, 
@@ -21,7 +21,7 @@ const Projects = () => {
             <ProjectsItem img={property1} title='animations' cat='blender' link="https://www.youtube.com/@thrimana3000/featured"/>
             <ProjectsItem img={property2} title='react js' cat='web developing' link="https://github.com/sasheeddev/react_tailwind_app" />
             <ProjectsItem img={property3} title='adroid' cat='app developing' link="https://play.google.com/store/apps/details?id=io.ionic.prog612534ff61fda147fec2393f&hl=en&gl=US" />
-            <ProjectsItem img={property4} title='telegram' cat='Bard AI' link="https://www.youtube.com/watch?v=nNxWTJch3Kg" />
+            <ProjectsItem img={property4} title='telegram' cat='Bard AI' link="/" />
         </div>
 
       
