@@ -19,6 +19,7 @@ const Sidenav = () => {
       {isOpen && (
         <div className="fixed z-20 flex flex-col items-center justify-center w-full h-screen sidenav-content bg-white/90 md:hidden">
           <a
+            onClick={toggleSidenav}
             href="#Main"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -27,6 +28,7 @@ const Sidenav = () => {
           </a>
 
           <a 
+            onClick={toggleSidenav}
             href="#About"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -34,7 +36,8 @@ const Sidenav = () => {
             <span className="pl-4">About Me</span>
           </a>
 
-          <a 
+          <a
+            onClick={toggleSidenav}  
             href=" #Work"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -43,7 +46,8 @@ const Sidenav = () => {
           </a>
 
           <a 
-            href="#Projects"
+            onClick={toggleSidenav}
+            href=" #projects "
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineProject size={20} />
@@ -51,6 +55,7 @@ const Sidenav = () => {
           </a>
 
           <a 
+            onClick={toggleSidenav}
             href="#Contact"
             className="sidenav-item w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
