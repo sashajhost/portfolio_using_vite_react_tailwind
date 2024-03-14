@@ -33,7 +33,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className='flex flex-wrap justify-between gap-8 pt-6 pl-4 pr-4 sm:gap-0 sm:pt-36 lg:pt-20'>
+        <div className='flex flex-wrap justify-between gap-10 pt-10 pl-6 pr-6 sm:gap-0 sm:pt-36 lg:pt-20'>
             <img className='md:h-[80px] h-[60px]' src={elogo} alt="" />
             <img className='md:h-[80px] h-[60px]' src={tlogo} alt="" />
             <img className='md:h-[80px] h-[60px]' src={rlogo} alt="" />
